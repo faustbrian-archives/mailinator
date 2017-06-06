@@ -1,7 +1,7 @@
 {
     "name": "faustbrian/mailinator-php-client",
     "description": "A Mailinator Client for PHP",
-    "keywords": ["api", "faustbrian", "faustbrian-mailinator", "mailinator", "Brian Faust", "faustbrian"],
+    "keywords": ["api", "mailinator", "Brian Faust", "faustbrian"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
