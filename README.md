@@ -1,22 +1,22 @@
 # Mailinator PHP Client
 
-[![Build Status](https://img.shields.io/travis/faustbrian/Mailinator-PHP-Client/master.svg?style=flat-square)](https://travis-ci.org/faustbrian/Mailinator-PHP-Client)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/faustbrian/mailinator-php-client.svg?style=flat-square)]()
-[![Latest Version](https://img.shields.io/github/release/faustbrian/Mailinator-PHP-Client.svg?style=flat-square)](https://github.com/faustbrian/Mailinator-PHP-Client/releases)
-[![License](https://img.shields.io/packagist/l/faustbrian/Mailinator-PHP-Client.svg?style=flat-square)](https://packagist.org/packages/faustbrian/Mailinator-PHP-Client)
+[![Build Status](https://img.shields.io/travis/plients/Mailinator-PHP-Client/master.svg?style=flat-square)](https://travis-ci.org/plients/Mailinator-PHP-Client)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/plients/mailinator.svg?style=flat-square)]()
+[![Latest Version](https://img.shields.io/github/release/plients/Mailinator-PHP-Client.svg?style=flat-square)](https://github.com/plients/Mailinator-PHP-Client/releases)
+[![License](https://img.shields.io/packagist/l/plients/Mailinator-PHP-Client.svg?style=flat-square)](https://packagist.org/packages/plients/Mailinator-PHP-Client)
 
 ## Installation
 
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
 
 ```bash
-$ composer require faustbrian/mailinator-php-client
+$ composer require plients/mailinator
 ```
 
 ## Usage
 
 ```php
-$client = new BrianFaust\Mailinator\Client();
+$client = new Plients\Mailinator\Client();
 $client->setConfig(['apiKey' => 'YOUR_API_KEY']);
 
 $response = $client->api('File')->scan('infected.rar');
@@ -26,19 +26,19 @@ dump($response);
 
 ## Testing
 
-``` bash
+```bash
 $ phpunit
 ```
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to hello@brianfaust.me. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@basecode.sh. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
-- [Brian Faust](https://github.com/faustbrian)
-- [All Contributors](../../contributors)
+-   [Brian Faust](https://github.com/faustbrian)
+-   [All Contributors](../../contributors)
 
 ## License
 
-[MIT](LICENSE) © [Brian Faust](https://brianfaust.me)
+[MIT](LICENSE) © [Brian Faust](https://basecode.sh)

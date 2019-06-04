@@ -5,16 +5,16 @@ declare(strict_types=1);
 /*
  * This file is part of Mailinator PHP Client.
  *
- * (c) Brian Faust <hello@brianfaust.me>
+ * (c) Brian Faust <hello@basecode.sh>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\Mailinator\API;
+namespace Plients\Mailinator\API;
 
-use BrianFaust\Http\HttpResponse;
-use BrianFaust\Mailinator\Models\Message;
+use Plients\Http\HttpResponse;
+use Plients\Mailinator\Models\Message;
 
 class Mail extends AbstractAPI
 {

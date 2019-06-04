@@ -1,13 +1,19 @@
 {
-    "name": "faustbrian/mailinator-php-client",
+    "name": "plients/mailinator",
     "description": "A Mailinator Client for PHP",
-    "keywords": ["api", "http", "mailinator"],
+    "keywords": [
+        "api",
+        "http",
+        "mailinator"
+    ],
     "license": "MIT",
-    "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
-    }],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "homepage": "https://basecode.sh"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "faustbrian/http": "^1.0"
@@ -18,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\Mailinator\\": "src"
+            "Plients\\Mailinator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\Mailinator\\": "tests"
+            "Plients\\Tests\\Mailinator\\": "tests"
         }
     },
     "config": {
